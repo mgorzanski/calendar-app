@@ -1,0 +1,23 @@
+.main-sidebar {
+  height: 100%;
+  width:50px;
+  background-color: var(--selective-yellow);
+}
+
+.main-sidebar-nav {
+  --hover-icon-color: var(--primary-text-color);
+  --icon-color: var(--yankees-blue-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top:19px;
+}
+
+.show-hide-panel-button {
+  font-size:27px;
+  color: var(--icon-color);
+}
+
+.show-hide-panel-button i:hover, .show-hide-panel-button i:active {
+  color: var(--hover-icon-color);
+}

@@ -1,32 +1,11 @@
-.App {
-  text-align: center;
-}
+@import "~normalize.css/normalize.css";
+@import "~@fortawesome/fontawesome-free/css/all.css";
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+:root {
+  --yankees-blue-color: #1C3144;
+  --boston-university-red-color: #D00000;
+  --selective-yellow: #FFBA08;
+  --wild-blue-yonder-color: #A2AEBB;
+  --tufts-blue-color: #3F88C5;
+  --primary-text-color: #efefef;
 }
