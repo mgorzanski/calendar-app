@@ -1,6 +1,6 @@
 .main-sidebar {
-  height: 100%;
-  width:50px;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
   background-color: var(--selective-yellow);
 }
 
@@ -37,6 +37,7 @@
 .top-menu-buttons li {
   text-align: center;
   margin-bottom: 15px;
+  color: var(--icon-color);
 }
 
 .top-menu-buttons li:hover {
@@ -47,7 +48,7 @@
   color: var(--hover-icon-color);
 }
 
-.main-sidebar-menu-item-active {
+.main-sidebar-menu-item-active i {
   color: var(--hover-icon-color);
 }
 
@@ -64,6 +65,7 @@
 .bottom-menu-buttons li {
   text-align: center;
   margin-bottom: 15px;
+  color: var(--icon-color);
 }
 
 .bottom-menu-buttons li:hover {

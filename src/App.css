@@ -1,6 +1,8 @@
 @import "~normalize.css/normalize.css";
 @import "~@fortawesome/fontawesome-free/css/all.css";
 
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:300,400,500,700');
+
 :root {
   --yankees-blue-color: #1C3144;
   --boston-university-red-color: #D00000;

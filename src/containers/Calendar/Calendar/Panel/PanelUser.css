@@ -1,0 +1,35 @@
+.panel-user {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--tufts-blue-color);
+}
+
+.panel-user-profile {
+  display:flex;
+  flex-direction: row;
+}
+
+.panel-user-profile-img img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.panel-user-profile-name {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: var(--primary-text-color);
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 40px;
+  margin:0 0 10px 10px;
+  padding:0;
+}
+
+.panel-user-dropdown {
+  margin-top:-10px;
+}
+
+.panel-user-dropdown i {
+  color: var(--primary-text-color);
+}

@@ -1,0 +1,6 @@
+.panel-container {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  background-color: var(--yankees-blue-color);
+  padding: 10px;
+}
