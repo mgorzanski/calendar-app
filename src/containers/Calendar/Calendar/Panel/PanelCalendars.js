@@ -20,6 +20,27 @@ export default class PanelCalendars extends React.Component {
             </span>
           </div>
         </div>
+
+        <div className="panel-content">
+          <ul className="calendars-list">
+            <li className="calendars-list-item">
+              <span className="calendars-list-item-color calendars-list-item-color-red"></span>
+              <span className="calendars-list-item-name">School</span>
+            </li>
+            <li className="calendars-list-item">
+              <span className="calendars-list-item-color calendars-list-item-color-purple"></span>
+              <span className="calendars-list-item-name">Personal</span>
+            </li>
+            <li className="calendars-list-item">
+              <span className="calendars-list-item-color calendars-list-item-color-yellow calendars-list-item-not-active"></span>
+              <span className="calendars-list-item-name">Work</span>
+            </li>
+            <li className="calendars-list-item">
+              <span className="calendars-list-item-color calendars-list-item-color-green calendars-list-item-not-active"></span>
+              <span className="calendars-list-item-name">Sport</span>
+            </li>
+          </ul>
+        </div>
       </div>
     );
   }

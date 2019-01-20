@@ -1,5 +1,5 @@
 .panel-calendars {
-
+  margin-top:40px;
 }
 
 .panel-title {
@@ -32,4 +32,52 @@
   color: var(--primary-text-color);
   font-size:25px;
   cursor: pointer;
+}
+
+.calendars-list {
+  list-style: none;
+  margin:20px 0 0 10px;
+  padding:0;
+}
+
+.calendars-list-item {
+  display:flex;
+  cursor:pointer;
+}
+
+.calendars-list-item-color {
+  width: 22px;
+  height: 22px;
+  display:inline-block;
+}
+
+.calendars-list-item-color-red {
+  border:2px solid #FF0000;
+  background-color: #FF0000;
+}
+
+.calendars-list-item-color-yellow {
+  border:2px solid #FFD500;
+  background-color: #FFD500;
+}
+
+.calendars-list-item-color-purple {
+  border:2px solid #493CF6;
+  background-color: #493CF6;
+}
+
+.calendars-list-item-color-green {
+  border:2px solid #19DF41;
+  background-color: #19DF41;
+}
+
+.calendars-list-item-not-active {
+  background-color: var(--yankees-blue-color);
+}
+
+.calendars-list-item-name {
+  font-size: 21px;
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+  margin:0 0 20px 33px;
 }
