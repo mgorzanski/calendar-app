@@ -1,0 +1,35 @@
+.panel-calendars {
+
+}
+
+.panel-title {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 10px 0 10px;
+  border-bottom:1px solid var(--tufts-blue-color);
+  border-top:1px solid var(--tufts-blue-color);
+  padding:15px 0 15px 0;
+}
+
+.panel-featured-icon {
+  color: var(--primary-text-color);
+  font-size:25px;
+}
+
+.panel-name {
+  color: var(--primary-text-color);
+  margin:0 0 0 17px;
+  padding:0;
+  display:inline;
+  font-weight: 400;
+  font-size:22px;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+.panel-action-icon {
+  color: var(--primary-text-color);
+  font-size:25px;
+  cursor: pointer;
+}
