@@ -1,0 +1,96 @@
+.panel-calendar {
+  margin-top:14px;
+}
+
+.new-event-button {
+  background-color: var(--boston-university-red-color);
+  width:100%;
+  height:53px;
+  border-radius:10px;
+  cursor:pointer;
+  user-select:none;
+}
+
+.new-event-button:active {
+  background-color: #940000;
+}
+
+.new-event-button-icon {
+  font-size: 25px;
+  color: var(--primary-text-color);
+  display:inline;
+  line-height: 53px;
+  margin-left:10px;
+}
+
+.new-event-button-text {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: var(--primary-text-color);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size:22px;
+  display:inline;
+  line-height: 53px;
+  margin-left:21px;
+}
+
+.panel-calendar-widget {
+  margin: 26px 20px 26px 20px;
+}
+
+.date-selection {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.current-date-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 21px;
+  color: var(--primary-text-color);
+  margin:0;
+  padding:0;
+}
+
+.date-selection-buttons span {
+  margin: 0 0 0 5px;
+}
+
+.date-selection-buttons span i {
+  color: var(--primary-text-color);
+  font-size:20px;
+  cursor: pointer;
+}
+
+.panel-calendar-widget-days {
+  margin:10px 0 0 0;
+}
+
+.panel-calendar-widget-row {
+  margin:10px 0 10px;
+  display:flex;
+  flex-direction: row;
+}
+
+.panel-calendar-widget-row span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 21px;
+  color: var(--wild-blue-yonder-color);
+  flex:1;
+  text-align: center;
+  cursor: pointer;
+}
+
+.panel-calendar-widget-row span.widget-accent {
+  color: var(--primary-text-color);
+}
+
+.panel-calendar-widget-row span.widget-dim {
+  opacity:0.5;
+}
+
+.panel-calendar-widget-row span.widget-current {
+  background-color: var(--primary-text-color);
+  color: var(--yankees-blue-color);
+  border-radius:50px;
+}
