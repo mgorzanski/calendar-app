@@ -3,6 +3,7 @@ import './index.css';
 import PanelUser from './PanelUser';
 import PanelCalendar from './PanelCalendar';
 import PanelCalendars from './PanelCalendars';
+import PanelRemindersEvents from './PanelRemindersEvents';
 
 export default class PanelContainer extends React.Component {
   render() {
@@ -11,6 +12,7 @@ export default class PanelContainer extends React.Component {
         <PanelUser />
         <PanelCalendar />
         <PanelCalendars />
+        <PanelRemindersEvents />
       </div>
     );
   }
