@@ -1,0 +1,39 @@
+.panel-reminders-events {}
+
+.reminders-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.reminders-list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 0.5px solid rgba(162, 174, 187, 0.3);
+  border-top: 0.5px solid rgba(162, 174, 187, 0.3);
+  line-height: 43px;
+  margin:10px;
+}
+
+.reminders-list-item-datetime {
+  color: var(--primary-text-color);
+  opacity: 0.7;
+  font-size: 19px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.reminders-list-item-name {
+  margin: 0 0 0 25px;
+  color: var(--primary-text-color);
+  font-size: 21px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.reminders-list-item-delete-icon {
+  color: var(--primary-text-color);
+  opacity: 0.4;
+  font-size: 22px;
+  cursor: pointer;
+}

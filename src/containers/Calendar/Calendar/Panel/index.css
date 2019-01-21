@@ -3,4 +3,5 @@
   grid-row: 1 / 2;
   background-color: var(--yankees-blue-color);
   padding: 10px;
+  height: calc(100vh - 20px);
 }
