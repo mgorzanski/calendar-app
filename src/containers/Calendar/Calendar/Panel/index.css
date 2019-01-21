@@ -1,7 +1,9 @@
 .panel-container {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
-  background-color: var(--yankees-blue-color);
+  background: #1c3144;
+  background: linear-gradient(to bottom, #1c3144 0%, #32597a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c3144', endColorstr='#32597a', GradientType=0 );
   padding: 10px;
   height: calc(100vh - 20px);
 }
