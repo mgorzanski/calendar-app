@@ -24,11 +24,12 @@ export default class LoginContainer extends React.Component {
           <div className="sign-in-form">
             <h2 className="sign-in-title">Sign In</h2>
             <form className="form">
-              <label for="email">E-mail</label>
+              <label for="email" className="form-label">E-mail</label>
               <input type="email" name="email" className="form-input" />
-              <label for="password">Password</label>
+              <label for="password" className="form-label">Password</label>
               <input type="password" name="password" className="form-input" />
               <button className="button-submit">Sign In</button>
+              <button className="button-outline" disabled>Create account</button>
             </form>
           </div>
         </div>
