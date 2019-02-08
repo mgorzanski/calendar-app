@@ -45,6 +45,7 @@
 
 .calendars-list-item-name {
   font-size: 21px;
+  line-height: 26px;
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
   margin:0 0 20px 33px;

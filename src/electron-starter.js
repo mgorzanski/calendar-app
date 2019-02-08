@@ -12,7 +12,7 @@ function createWindow() {
     icon: path.join(__dirname, 'assets/app/icon.png'),
     title: 'Calendar'
   });
-  mainWindow.setMenu(null);
+  //mainWindow.setMenu(null);
   mainWindow.maximize();
 
   // and load the index.html of the app.
