@@ -8,14 +8,14 @@ class App extends React.Component {
     super(props);
 
     this.state = {
-      userLogged: false
-    }
+      userLogged: true
+    };
   }
 
   render() {
     return (
       <div className="App">
-        { this.state.userLogged ? <CalendarContainer /> : <LoginContainer /> }
+        {this.state.userLogged ? <CalendarContainer /> : <LoginContainer />}
       </div>
     );
   }
