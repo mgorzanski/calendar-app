@@ -4,16 +4,29 @@ import PanelUser from './PanelUser';
 import PanelCalendar from './PanelCalendar';
 import PanelCalendars from './PanelCalendars';
 import PanelRemindersEvents from './PanelRemindersEvents';
+import { connect } from 'react-redux';
 
-export default class PanelContainer extends React.Component {
+class PanelContainer extends React.Component {
   render() {
-    return (
-      <div className="panel-container">
-        <PanelUser />
-        <PanelCalendar />
-        <PanelCalendars />
-        <PanelRemindersEvents />
-      </div>
-    );
+    if (this.props.isSidebarVisible) {
+      return (
+        <div className="panel-container">
+          <PanelUser />
+          <PanelCalendar />
+          <PanelCalendars />
+          <PanelRemindersEvents />
+        </div>
+      );
+    } else {
+      return null;
+    }
   }
 }
+
+const mapStateToProps = state => {
+  return {
+    isSidebarVisible: state.isSidebarVisible
+  };
+};
+
+export default connect(mapStateToProps)(PanelContainer);
