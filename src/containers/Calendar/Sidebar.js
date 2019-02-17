@@ -53,7 +53,7 @@ class Sidebar extends React.Component {
 
 const mapStateToProps = state => {
   return {
-    isSidebarVisible: state.isSidebarVisible
+    isSidebarVisible: state.ui.isSidebarVisible
   };
 };
 
