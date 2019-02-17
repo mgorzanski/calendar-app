@@ -1,0 +1,25 @@
+.button {
+  background-color: rgb(247, 247, 247, 0.6);
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #727272;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
+  display: inline;
+  outline: none;
+  border: 0;
+  padding: 10px;
+}
+
+.button-success {
+  background-color: #00d000;
+  color: #000;
+}
+
+.button-danger {
+  background-color: #d00000;
+  color: #000;
+}
