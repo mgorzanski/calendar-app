@@ -73,7 +73,34 @@ export default class LoginContainer extends React.Component {
           toggleModal={this.toggleSignupModal}
           id="signUpModal"
         >
-          <p>Test modal</p>
+          <p>
+            Use form below to register for access to the early version of the
+            app.
+          </p>
+          <label htmlFor="firstName" className="form-label-signup">
+            First Name
+          </label>
+          <input type="text" className="form-input-signup" id="firstName" />
+          <label htmlFor="lastName" className="form-label-signup">
+            Last Name
+          </label>
+          <input type="text" className="form-input-signup" id="lastName" />
+          <label htmlFor="email" className="form-label-signup">
+            E-mail
+          </label>
+          <input type="email" className="form-input-signup" id="email" />
+          <label htmlFor="password" className="form-label-signup">
+            Password
+          </label>
+          <input type="password" className="form-input-signup" id="password" />
+          <label htmlFor="repeatPassword" className="form-label-signup">
+            Repeat Password
+          </label>
+          <input
+            type="password"
+            className="form-input-signup"
+            id="repeatPassword"
+          />
         </Modal>
       </div>
     );

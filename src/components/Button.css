@@ -1,6 +1,6 @@
 .button {
   background-color: rgb(247, 247, 247, 0.6);
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
   user-select: none;
   font-family: 'Roboto Condensed', sans-serif;
@@ -15,11 +15,21 @@
 }
 
 .button-success {
-  background-color: #00d000;
+  background-color: rgba(0, 209, 0, 0.6);
   color: #000;
 }
 
 .button-danger {
-  background-color: #d00000;
+  background-color: rgb(208, 0, 0, 0.6);
   color: #000;
+}
+
+.button-success:hover,
+.button-success:active {
+  background-color: rgba(0, 209, 0, 1);
+}
+
+.button-danger:hover,
+.button-danger:active {
+  background-color: rgb(208, 0, 0, 1);
 }
