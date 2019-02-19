@@ -3,7 +3,7 @@
   grid-row: 1 / 2;
   background: #ffb908;
   background: linear-gradient(to bottom, #ffb908 0%, #d49900 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb908', endColorstr='#d49900', GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffb908', endColorstr='#d49900', GradientType=0);
 }
 
 .main-sidebar-nav {
@@ -21,7 +21,7 @@
 }
 
 .show-hide-panel-button i:active {
-  color: var(--hover-icon-color);
+  color: #fffcf3;
 }
 
 .show-hide-panel-button i:hover {
@@ -47,11 +47,11 @@
 }
 
 .top-menu-buttons li:active {
-  color: var(--hover-icon-color);
+  color: #fffcf3
 }
 
 .main-sidebar-menu-item-active i {
-  color: var(--hover-icon-color);
+  color: #fff1cc;
 }
 
 .bottom-menu-buttons {
@@ -75,5 +75,5 @@
 }
 
 .bottom-menu-buttons li:active {
-  color: var(--hover-icon-color);
+  color: #fffcf3;
 }
