@@ -1,0 +1,14 @@
+.main-container {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.calendar-view {
+  display:flex;
+  flex-direction: row;
+}
+
+.condensed-view {
+  flex-grow: 2;
+  flex-shrink: 1;
+}

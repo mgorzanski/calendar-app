@@ -1,5 +1,5 @@
 .panel-container {
-  grid-column: 2 / 3;
+  grid-column: 1 / 2;
   grid-row: 1 / 2;
   background: #1c3144;
   background: linear-gradient(to bottom, #1c3144 0%, #32597a 100%);

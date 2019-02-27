@@ -1,5 +1,16 @@
 .calendar-container {
   display:grid;
-  grid-template-columns: 50px 345px auto;
+  grid-template-columns: 50px auto;
+  grid-template-rows: 100vh;
+}
+
+.app-router {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.app-router > div {
+  display:grid;
+  grid-template-columns: 345px auto;
   grid-template-rows: 100vh;
 }
