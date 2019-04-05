@@ -3,6 +3,7 @@ import PanelContainer from './Panel';
 import './index.css';
 import Header from './Header';
 import Agenda from './Agenda';
+import CalendarGrid from './CalendarGrid';
 
 export default class CalendarScreen extends React.Component {
   render() {
@@ -12,8 +13,8 @@ export default class CalendarScreen extends React.Component {
         <div className="main-container">
           <Header />
           <main className="calendar-view">
-            <div className="condensed-view">
-              
+            <div className="condensed-view overflow-scroll">
+              <CalendarGrid />
             </div>
             <Agenda />
           </main>

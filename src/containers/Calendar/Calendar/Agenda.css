@@ -2,4 +2,108 @@
   flex-grow:1;
   flex-basis: 510px;
   flex-shrink: 2;
+  padding: 20px 36px;
+  background: #efefef;
+  height: calc(100vh - 78px);
+}
+
+.agenda-view-title {
+  font-family: 'Roboto Condensed';
+  font-size: 1.8rem;
+  color: var(--tufts-blue-color);
+  font-weight: normal;
+  border-bottom: 1px solid var(--tufts-blue-color);
+  margin: 0;
+  padding: 0 0 12px 0;
+}
+
+.agenda-listview {
+  margin: 10px 0 0;
+}
+
+.agenda-listview-item {
+  margin: 35px 0 0;
+}
+
+.agenda-listview-item-date {
+  font-family: 'Roboto Condensed';
+  font-size: 1.6rem;
+  color: #373737;
+  margin: 0 0 14px 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+.agenda-listview-item-date-current {
+  color: var(--boston-university-red-color);
+}
+
+.agenda-listview-item-events-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.agenda-listview-item-events-list-item {
+  background: #FFFFFF;
+  border-right: 10px solid #CCC;
+  padding: 8px;
+  overflow: hidden;
+  margin: 0 0 8px 0;
+}
+
+.agenda-listview-item-events-list-item-color-purple {
+  border-right: 10px solid #493CF6;
+}
+
+.agenda-listview-item-events-list-item-color-red {
+  border-right: 10px solid #FF0000;
+}
+
+.agenda-listview-item-events-list-item-timestamp {
+  float: left;
+  width: 37%;
+}
+
+.agenda-listview-item-events-list-item-timestamp-time {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 29px;
+  display: block;
+}
+
+.agenda-listview-item-events-list-item-timestamp-start-end {
+  font-weight: normal;
+  font-size: 14px;
+  color: var(--wild-blue-yonder-color);
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  display: block;
+}
+
+.agenda-listview-item-events-list-item-details {
+  float: left;
+  width: 63%;
+  margin: 0;
+}
+
+.agenda-listview-item-events-list-item-details-text {
+  font-family: 'Roboto';
+  font-size: 23px;
+  display: block;
+  margin: 18px 0 0;
+}
+
+.agenda-listview-item-events-list-item-details-calendar {
+  font-size: 14px;
+  font-family: 'Roboto';
+  display: block;
+}
+
+.text-color-purple {
+  color: #493CF6;
+}
+
+.text-color-red {
+  color: #FF0000;
 }

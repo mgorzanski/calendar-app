@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './styles/helpers.css';
 import CalendarContainer from './containers/Calendar';
 import LoginContainer from './containers/Login';
 

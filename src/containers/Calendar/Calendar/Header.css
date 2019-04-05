@@ -1,6 +1,6 @@
 .calendar-header {
   background: var(--wild-blue-yonder-color);
-  height: 50px;
+  height: 38px;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -67,9 +67,9 @@
 .calendar-header-view-selector li {
   background: rgba(28, 49, 68, 0.3);
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 1.25em;
+  font-size: 1.1em;
   color: var(--primary-text-color);
-  padding: 8px;
+  padding: 5px;
   display: inline-block;
   margin-right: 5px;
   cursor: pointer;

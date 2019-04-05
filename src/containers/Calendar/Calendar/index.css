@@ -11,4 +11,5 @@
 .condensed-view {
   flex-grow: 2;
   flex-shrink: 1;
+  flex-basis: 1015px;
 }
