@@ -50,6 +50,7 @@
   color: var(--primary-text-color);
   margin:0 0 0 13px;
   padding:0;
+  cursor: default;
 }
 
 .date-selection-buttons span {

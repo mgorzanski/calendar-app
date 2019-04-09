@@ -5,6 +5,7 @@
   margin: 0 10px 0 10px;
   border-bottom:1px solid var(--tufts-blue-color);
   border-top:1px solid var(--tufts-blue-color);
+  cursor: default;
   padding:15px 0 15px 0;
 }
 

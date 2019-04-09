@@ -9,10 +9,10 @@ class App extends React.Component {
     super(props);
 
     this.state = {
-      userLogged: true
+      userLogged: true,
+      isMaximized: false
     };
   }
-
   render() {
     return (
       <div className="App">

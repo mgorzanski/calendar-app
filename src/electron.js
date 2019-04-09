@@ -15,7 +15,8 @@ function createWindow() {
     },
     minWidth: 800,
     minHeight: 600,
-    title: 'Weekly (alpha)'
+    title: 'Weekly (alpha)',
+    frame: true
   });
 
   // and load the index.html of the app.
