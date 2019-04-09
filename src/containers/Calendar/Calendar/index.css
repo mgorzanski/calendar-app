@@ -3,6 +3,10 @@
   grid-row: 1 / 2;
 }
 
+.main-container-full-size {
+  grid-column: 1 / 3;
+}
+
 .calendar-view {
   display:flex;
   flex-direction: row;
@@ -14,4 +18,5 @@
   flex-basis: 1015px;
   overflow: scroll;
   height: calc(100vh - 38px);
+  max-width: 1055px;
 }

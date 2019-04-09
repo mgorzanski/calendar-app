@@ -1,6 +1,7 @@
 .calendar-week-grid {
   overflow: hidden;
   width: 1038px;
+  max-width: 1038px;
   cursor: default;
 }
 
