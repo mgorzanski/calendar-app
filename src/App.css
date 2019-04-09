@@ -4,10 +4,20 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:300,400,500,700');
 
 :root {
+  /* Global colors */
   --yankees-blue-color: #1C3144;
   --boston-university-red-color: #D00000;
   --selective-yellow: #FFBA08;
   --wild-blue-yonder-color: #A2AEBB;
   --tufts-blue-color: #3F88C5;
+
+  /* Individual items */
   --primary-text-color: #efefef;
+  --sidebar-background: #1c3144 linear-gradient(to bottom, #1c3144 0%, #32597a 100%);
+  --sidebar-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c3144', endColorstr='#32597a', GradientType=0 );
+  --sidebar-text-color: var(--primary-text-color);
+  --sidebar-icon-color: #c4c4c4;
+
+  --panel-background: var(--sidebar-background);
+  --panel-filter: var(--sidebar-filter);
 }

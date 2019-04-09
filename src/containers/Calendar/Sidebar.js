@@ -41,9 +41,6 @@ class Sidebar extends React.Component {
             <li>
               <i className="fas fa-cog" />
             </li>
-            <li>
-              <i className="fas fa-sign-out-alt" />
-            </li>
           </ul>
         </nav>
       </div>
