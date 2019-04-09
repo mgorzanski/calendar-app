@@ -45,7 +45,7 @@
 }
 
 .agenda-listview-item-events-list-item {
-  background: #FFFFFF;
+  background: rgb(255, 255, 255, 0.5);
   border-right: 10px solid #CCC;
   padding: 8px;
   overflow: hidden;

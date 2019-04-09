@@ -13,7 +13,7 @@ export default class CalendarScreen extends React.Component {
         <div className="main-container">
           <Header />
           <main className="calendar-view">
-            <div className="condensed-view overflow-scroll">
+            <div className="condensed-view">
               <CalendarGrid />
             </div>
             <Agenda />

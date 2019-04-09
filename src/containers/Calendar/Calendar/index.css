@@ -12,4 +12,6 @@
   flex-grow: 2;
   flex-shrink: 1;
   flex-basis: 1015px;
+  overflow: scroll;
+  height: calc(100vh - 38px);
 }
