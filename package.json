@@ -4,7 +4,7 @@
   "private": true,
   "main": "src/electron.js",
   "dependencies": {
-    "@emotion/core": "^10.0.7",
+    "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.7",
     "bootstrap": "^4.2.1",
     "node-sass": "^4.11.0",

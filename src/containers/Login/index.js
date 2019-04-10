@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import AppIcon from './../../assets/app/app-icon.png';
+import AppIcon from './../../assets/images/icons/app-icon.png';
 import Modal from './../../components/Modal';
 
 export default class LoginContainer extends React.Component {
