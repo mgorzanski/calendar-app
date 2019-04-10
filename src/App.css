@@ -1,8 +1,6 @@
 @import "~normalize.css/normalize.css";
 @import "~@fortawesome/fontawesome-free/css/all.css";
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:300,400,500,700');
-
 :root {
   /* Global colors */
   --yankees-blue-color: #1C3144;
@@ -20,4 +18,11 @@
 
   --panel-background: var(--sidebar-background);
   --panel-filter: var(--sidebar-filter);
+
+  /* App colors */
+  --primary-color: var(--yankees-blue-color);
+  --secondary-color: var(--wild-blue-yonder-color);
+  --accent-color: var(--tufts-blue-color);
+  --accent-color-second: var(--boston-university-red-color);
+  --additional-color: var(--selective-yellow);
 }
