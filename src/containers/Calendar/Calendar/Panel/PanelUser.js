@@ -1,6 +1,6 @@
 import React from 'react';
 import './PanelUser.css';
-import ProfileImageThumbnail from './../../../../assets/thumbnails/profile-image.png';
+import ProfileImageThumbnail from './../../../../assets/images/thumbnails/profile-image.png';
 
 export default class PanelUser extends React.Component {
   render() {
