@@ -25,6 +25,11 @@
   text-transform: uppercase;
 }
 
+.panel-inactive {
+  color: rgba(239, 239, 239, 0.5);
+  cursor: pointer;
+}
+
 .panel-action-icon {
   color: var(--primary-text-color);
   font-size:25px;

@@ -7,30 +7,35 @@ export default class PanelCalendars extends React.Component {
     return (
       <div className="panel-calendars">
         <Panel
-          featuredIcon="far fa-calendar-alt"
-          name="Calendars"
-          actionIcon="fas fa-plus"
-          onActionIconPress={() => console.log('Press')}
-        >
-          <ul className="calendars-list">
-            <li className="calendars-list-item">
-              <span className="calendars-list-item-color calendars-list-item-color-red" />
-              <span className="calendars-list-item-name">School</span>
-            </li>
-            <li className="calendars-list-item">
-              <span className="calendars-list-item-color calendars-list-item-color-purple" />
-              <span className="calendars-list-item-name">Personal</span>
-            </li>
-            <li className="calendars-list-item">
-              <span className="calendars-list-item-color calendars-list-item-color-yellow calendars-list-item-not-active" />
-              <span className="calendars-list-item-name">Work</span>
-            </li>
-            <li className="calendars-list-item">
-              <span className="calendars-list-item-color calendars-list-item-color-green calendars-list-item-not-active" />
-              <span className="calendars-list-item-name">Sport</span>
-            </li>
-          </ul>
-        </Panel>
+          elements={[
+            {
+              featuredIcon: 'far fa-calendar-alt',
+              name: 'Calendars',
+              actionIcon: 'fas fa-plus',
+              onActionIconPress: () => console.log('Press'),
+              content: (
+                <ul className="calendars-list">
+                  <li className="calendars-list-item">
+                    <span className="calendars-list-item-color calendars-list-item-color-red" />
+                    <span className="calendars-list-item-name">School</span>
+                  </li>
+                  <li className="calendars-list-item">
+                    <span className="calendars-list-item-color calendars-list-item-color-purple" />
+                    <span className="calendars-list-item-name">Personal</span>
+                  </li>
+                  <li className="calendars-list-item">
+                    <span className="calendars-list-item-color calendars-list-item-color-yellow calendars-list-item-not-active" />
+                    <span className="calendars-list-item-name">Work</span>
+                  </li>
+                  <li className="calendars-list-item">
+                    <span className="calendars-list-item-color calendars-list-item-color-green calendars-list-item-not-active" />
+                    <span className="calendars-list-item-name">Sport</span>
+                  </li>
+                </ul>
+              )
+            }
+          ]}
+        />
       </div>
     );
   }
