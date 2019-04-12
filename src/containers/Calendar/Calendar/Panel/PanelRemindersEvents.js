@@ -6,7 +6,16 @@ export default class PanelRemindersEvents extends React.Component {
   render() {
     const Reminders = () => (
       <ul className="reminders-list">
-        <li className="reminders-list-item">
+        <li
+          className="reminders-list-item"
+          onMouseMove={e => {
+            const x = e.pageX - e.target.offsetLeft;
+            const y = e.pageY - e.target.offsetTop;
+
+            e.target.style.setProperty('--x', `${x}px`);
+            e.target.style.setProperty('--y', `${y}px`);
+          }}
+        >
           <div>
             <span className="reminders-list-item-datetime">5:00PM</span>
             <span className="reminders-list-item-name">Call mom</span>
@@ -17,7 +26,16 @@ export default class PanelRemindersEvents extends React.Component {
             </span>
           </div>
         </li>
-        <li className="reminders-list-item">
+        <li
+          className="reminders-list-item"
+          onMouseMove={e => {
+            const x = e.pageX - e.target.offsetLeft;
+            const y = e.pageY - e.target.offsetTop;
+
+            e.target.style.setProperty('--x', `${x}px`);
+            e.target.style.setProperty('--y', `${y}px`);
+          }}
+        >
           <div>
             <span className="reminders-list-item-datetime">6:30PM</span>
             <span className="reminders-list-item-name">Make a dinner</span>
