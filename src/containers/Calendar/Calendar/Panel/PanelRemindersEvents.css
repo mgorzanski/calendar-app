@@ -59,3 +59,72 @@
   font-size: 22px;
   cursor: pointer;
 }
+
+.today-events-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.today-events-list-item {
+  margin: 10px;
+  padding: 0 5px;
+  border-bottom: 0.5px solid rgba(162, 174, 187, 0.3);
+  border-top: 0.5px solid rgba(162, 174, 187, 0.3);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.today-events-list-item::before {
+  --size: 0;
+    content: '';
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    background: radial-gradient(circle closest-side, rgba(73, 127, 173, 0.5), transparent);
+    transform: translate(-50%, -50%);
+    transition: width .2s ease, height .2s ease;
+}
+
+.today-events-list-item:hover::before {
+  --size: 250px;
+}
+
+.today-events-list-item-color-red {
+  border-right: 4px solid #ff0000;
+}
+
+.today-events-list-item-timestamp {
+  display: inline-block;
+  line-height: 60px;
+}
+
+.today-events-list-item-details {
+  display: inline-block;
+  margin: 0 0 0 12px;
+  vertical-align: middle;
+}
+
+.today-events-list-item-timestamp-time {
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
+  color: var(--primary-text-color);
+  font-weight: 300;
+  opacity: 0.6;
+}
+
+.today-events-list-item-details-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  display: block;
+  color: var(--primary-text-color);
+}
+
+.today-events-list-item-details-calendar-name {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  display: block;
+}
