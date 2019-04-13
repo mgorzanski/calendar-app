@@ -13,9 +13,7 @@
 }
 
 .condensed-view {
-  flex-grow: 2;
-  flex-shrink: 1;
-  flex-basis: 1015px;
+  flex: auto;
   overflow: scroll;
   height: calc(100vh - 38px);
   max-width: 1055px;

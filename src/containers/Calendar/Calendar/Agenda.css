@@ -1,7 +1,5 @@
 .agenda-view {
-  flex-grow:1;
-  flex-basis: 510px;
-  flex-shrink: 2;
+  flex: auto;
   padding: 20px 36px;
   background: #efefef;
   height: calc(100vh - 78px);
