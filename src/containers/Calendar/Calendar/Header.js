@@ -8,8 +8,12 @@ class Header extends React.Component {
         <nav className="calendar-header-date-selector-nav">
           <p className="calendar-header-date-text">September 2019</p>
           <div className="calendar-header-date-selector-buttons">
-            <i className="fas fa-chevron-circle-left" />
-            <i className="fas fa-chevron-circle-right" />
+            <span data-tooltip="Previous week" data-tooltip-location="bottom">
+              <i className="fas fa-chevron-circle-left" />
+            </span>
+            <span data-tooltip="Next week" data-tooltip-location="bottom">
+              <i className="fas fa-chevron-circle-right" />
+            </span>
           </div>
         </nav>
         <nav className="calendar-header-right-nav">
