@@ -12,6 +12,7 @@ export default class PanelCalendars extends React.Component {
               featuredIcon: 'far fa-calendar-alt',
               name: 'Calendars',
               actionIcon: 'fas fa-plus',
+              actionIconTooltipText: 'Create a calendar',
               onActionIconPress: () => console.log('Press'),
               content: (
                 <ul className="calendars-list">

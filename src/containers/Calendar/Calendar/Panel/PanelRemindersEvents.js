@@ -97,14 +97,16 @@ export default class PanelRemindersEvents extends React.Component {
               featuredIcon: 'fas fa-bell',
               name: 'Reminders',
               actionIcon: 'fas fa-plus',
+              actionIconTooltipText: 'Create a reminder',
               onActionIconPress: () => console.log('Press'),
               content: <Reminders />,
               order: 0
             },
             {
-              featuredIcon: 'far fa-list-alt',
+              featuredIcon: 'fas fa-calendar-day',
               name: 'Today',
               actionIcon: 'fas fa-plus',
+              actionIconTooltipText: 'Create an event',
               onActionIconPress: () => console.log('Press'),
               content: <TodayEvents />,
               order: 1

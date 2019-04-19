@@ -43,6 +43,10 @@ export default class Panel extends React.Component {
               onClick={
                 this.props.elements[this.state.current].onActionIconPress
               }
+              data-tooltip={
+                this.props.elements[this.state.current].actionIconTooltipText
+              }
+              data-tooltip-location="bottom"
             >
               <i
                 className={this.props.elements[this.state.current].actionIcon}
